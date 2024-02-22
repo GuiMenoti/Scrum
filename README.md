@@ -72,3 +72,17 @@ Por último, temos uma **retrospectiva**, uma reunião onde todas as informaçõ
 - https://www.treasy.com.br/blog/scrum/
 - https://www.pontotel.com.br/metodologia-scrum/
 - https://blog.contaazul.com/metodologia-scrum/
+
+**Sistema:**
+
+🔵Sistema de minha autoria, onde é possível fazer a simulação de uma sprint da metodologia agia scrum
+
+**Link:** https://scrum-topaz.vercel.app/
+
+
+
+## Direitos Autorais📜
+
+© 2024 Guilherme Menoti. Todos os direitos reservados.
+
+Este código fonte é protegido por direitos autorais e não pode ser reproduzido, distribuído ou utilizado de qualquer forma sem a permissão expressa do autor.
