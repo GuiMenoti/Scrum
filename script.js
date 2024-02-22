@@ -17,17 +17,17 @@ function startSprint() {
     alert('Daily Scrum: O que você fez ontem? O que você vai fazer hoje? Algum impedimento?');
   }
   function reviewSprint() {
+    
+    alert('Revisão da Sprint: Demonstrar o incremento aos stakeholders, passar por uma validação e obter feedback.');
+  }
+  
+  function retrospective() {
     const developmentProgress = document.getElementById('developmentProgress');
     const progressItems = document.querySelectorAll('#developmentProgress li');
   
     progressItems.forEach(item => {
       item.textContent = `Finalizado: ${item.textContent.replace('Em Andamento: ', '')}`;
     });
-  
-    alert('Revisão da Sprint: Demonstrar o incremento aos stakeholders e obter feedback.');
-  }
-  
-  function retrospective() {
     alert('Retrospectiva: Reflita sobre o sprint, identifique o que deu certo e o que pode ser melhorado.');
   }
 
