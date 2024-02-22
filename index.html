@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scrum Sprint Adventure</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Scrum Sprint Simulador </h1>
+    <p>Clique nas atividades que serão desenvolvidas nessa sprint</p>
+    <div class="board">
+      <div class="backlog">
+        <h2>Product Backlog</h2>
+        <ul id="productBacklog">
+            <li onclick="moveToSprintBacklog(this)">Recurso de cadastro de usuários</li>
+            <li onclick="moveToSprintBacklog(this)">Módulo de visualização de dados</li>
+            <li onclick="moveToSprintBacklog(this)">Integração de gateway de pagamento</li>
+            <li onclick="moveToSprintBacklog(this)">Implementação de chat em tempo real</li>
+            <li onclick="moveToSprintBacklog(this)">Melhorias na interface do usuário</li>
+            <li onclick="moveToSprintBacklog(this)">Funcionalidade de notificações por e-mail</li>
+            <li onclick="moveToSprintBacklog(this)">Adição de suporte multilíngue</li>
+        </ul>
+      </div>
+      <div class="sprint">
+        <h2>Sprint Backlog</h2>
+        <ul id="sprintBacklog">
+         
+        </ul>
+      </div>
+      <div class="progress">
+        <h2>Development Progress</h2>
+        <ul id="developmentProgress">
+         
+        </ul>
+      </div>
+    </div>
+    <div class="controls">
+      <button onclick="startSprint()">Start Sprint</button>
+      <button onclick="dailyScrum()">Daily Scrum</button>
+      <button onclick="reviewSprint()">Review Sprint</button>
+      <button onclick="retrospective()">Retrospective</button>
+    </div>
+    <div class="explanation">
+        <h2>Como Simular uma Sprint</h2>
+        <p>1. Comece selecionando itens do Product Backlog clicando neles. Eles serão movidos para o Sprint Backlog.</p>
+        <p>2. Ao clicar em "Start Sprint", você começará a Sprint e poderá avançar os itens do Sprint Backlog para o Progresso do Desenvolvimento durante a Daily .</p>
+        <p>3. Durante o Daily Scrum, os itens irão do Sprint Backlog para o Development progess "Em Andamento".</p>
+        <p>4. Ao clicar em "Review Sprint", os itens marcados como "Em Andamento" serão movidos para "Finalizado".</p>
+        <p>5. Após a revisão, você pode realizar a "Retrospectiva" para refletir sobre a Sprint.</p>
+        <p>Boa simulação❗</p>
+      </div>
+      <div>
+        <p>Desenvolvido por <a class="name">Guilherme Menoti</a></p>
+      </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
